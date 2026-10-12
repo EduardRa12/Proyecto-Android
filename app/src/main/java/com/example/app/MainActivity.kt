@@ -46,6 +46,8 @@ import com.example.app.componentes.MandarMensajes
 import com.example.app.componentes.MiPortrait
 import com.example.app.componentes.MisIntentos
 import com.example.app.componentes.OpenCameraButton
+import com.example.app.componentes.ScreenGiroscopio
+import com.example.app.componentes.ScreenLuz
 import com.example.app.componentes.TextFieldGenerico
 import com.example.app.componentes.TextosEjemplo
 import com.example.app.ui.theme.AppTheme
@@ -72,7 +74,8 @@ class MainActivity : ComponentActivity() {
                     //HandlerOrientacion()
                     //MisIntentos()
                     //MandarMensajes(modifier = Modifier.padding(innerPadding))
-                    OpenCameraButton()
+                    //ScreenLuz(modifier = Modifier.padding(innerPadding))
+                    ScreenGiroscopio()
                 }
 
             }
